@@ -2,9 +2,9 @@
 
   Causal inferences are used to draw causal (cause and effect) conclusions from data. They have applications in different fields from economics to health care. 
 
-This project has two parts. The first part is testing SuperLearner framework which is a flexible ensemble of machine learning models. The second part is using SuperLearner to develop a doubly robust method for estimation of causal parameters called TMLE ( Targeted Maximum Likelihood Estimation). We tested TMLE on different datasets and compared the results with traditional methods.
+This project has two parts. The first part is testing SuperLearner framework which is a flexible ensemble of machine learning models. The second part is using SuperLearner to develop a doubly robust method for estimation of causal parameters called TMLE (Targeted Maximum Likelihood Estimation). We tested TMLE on different datasets and compared the results with traditional methods.
 
-## Ensemble Super Learner
+## Super Learner (An Ensemble Machine Learning Algorithm)
 The super learner provides a flexible but robust procedure for estimating an ensemble prediction model. By incorporating a rich collection of algorithms that vary in bias and degree of data-fitting, the cross-validation within the super learning prevents overfitting and it also prevents selecting a fit that is too biased. 
 
 ![image](https://github.com/user-attachments/assets/990de748-3733-43c7-a77f-62585d80ea7f)
@@ -13,5 +13,7 @@ The super learner provides a flexible but robust procedure for estimating an ens
 Targeted Learning integrates causal inference, machine learning and statistical theory. TMLE provides doubly robust estimation for complex observations, particularly high dimensional data. The estimate is accompanied with confidence interval and p-value.
 
 ![image](https://github.com/user-attachments/assets/2c39dd32-c069-4d7a-bf41-1dc0ceee1971)
+
+### Source: van der Laan MJ and Rose S. (2011) Targeted learning: causal inference for observational and experimental data. Springer
 
 
