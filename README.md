@@ -14,6 +14,5 @@ Targeted Learning integrates causal inference, machine learning and statistical 
 
 ![image](https://github.com/user-attachments/assets/2c39dd32-c069-4d7a-bf41-1dc0ceee1971)
 
-### Source: van der Laan MJ and Rose S. (2011) Targeted learning: causal inference for observational and experimental data. Springer
 
 
