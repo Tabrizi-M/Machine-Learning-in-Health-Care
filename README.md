@@ -21,9 +21,10 @@ The set of algorithms in the collection should be a diverse set to adapt to diff
 <img width="660" height="435" alt="image" src="https://github.com/user-attachments/assets/dc3688b4-2de2-4cfe-ac31-fad094a2ac31" />
 
 ### Results
-With the given collection of algorithms, the super learner is able to adapt to the underlying structure of the data-generating function and has a risk close to the best algorithm.
 
-The super learner provides a flexible but robust procedure for estimating an ensemble prediction model. It allows the researcher to evaluate a large library of prediction algorithms, but controls over-fitting with cross-validation
+For each simulation we produced a scatterplot. The true curve for the simulation is represented by the solid black line. The red dots represent the simulated data and blue dots represent the predictions from super learner fit. With the given collection of algorithms (except for simulation 4 which requires additional algorithms), the super learner is able to adapt to the underlying structure of the data-generating function and has a risk close to the best algorithm.
+
+In summary, The super learner provides a flexible but robust procedure for estimating an ensemble prediction model. It allows the researcher to evaluate a large library of prediction algorithms, but controls over-fitting with cross-validation. 
 
 <img width="960" height="720" alt="test" src="https://github.com/user-attachments/assets/e5c5149b-b569-4e20-8052-cfa06a75d70f" />
 
