@@ -9,6 +9,24 @@ The super learner provides a flexible but robust procedure for estimating an ens
 
 ![image](https://github.com/user-attachments/assets/990de748-3733-43c7-a77f-62585d80ea7f)
 
+## Simulation
+
+To test the performance of super learner we did a simulation on four different types of functions defined by
+
+<img width="760" height="720" alt="image" src="https://github.com/user-attachments/assets/9dd7976c-3e4b-480b-986e-b76a3bdbec14" />
+
+### Set of Algorithms for Super Learner
+The set of algorithms in the collection should be a diverse set to adapt to different types of data generating models. Here we have regression, regression trees, random forest and neural networks.
+
+<img width="660" height="435" alt="image" src="https://github.com/user-attachments/assets/dc3688b4-2de2-4cfe-ac31-fad094a2ac31" />
+
+### Results
+With the given collection of algorithms, the super learner is able to adapt to the underlying structure of the data-generating function and has a risk close to the best algorithm.
+
+The super learner provides a flexible but robust procedure for estimating an ensemble prediction model. It allows the researcher to evaluate a large library of prediction algorithms, but controls over-fitting with cross-validation
+
+<img width="960" height="720" alt="test" src="https://github.com/user-attachments/assets/e5c5149b-b569-4e20-8052-cfa06a75d70f" />
+
 ## TMLE method for Causal Inferences
 Targeted Learning integrates causal inference, machine learning and statistical theory. TMLE provides doubly robust estimation for complex observations, particularly high dimensional data. The estimate is accompanied with confidence interval and p-value.
 
